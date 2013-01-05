@@ -19,7 +19,46 @@
 	margin : 10px;
 
 }
+.twitter-feeds{
+    position : fixed;
+    top : 40%;
+    left : 3%;
+    width : 300px;
+    height : 50px;
+}
+.social{
+    position : fixed;
+    top : 80%;
+    left : 40%;
+    width : 300px;
+    height : 20px;
+}
 
+#google {
+    position : fixed;
+    top : 80%;
+    left : 40%;
+    width : 300px;
+    height : 20px;
+}
+
+#facebook {
+    position : fixed;
+    top : 80%;
+    left : 46%;
+    width : 300px;
+    height : 20px;
+}
+
+#linkedin {
+    position : fixed;
+    top : 80%;
+    left : 53%;
+    width : 300px;
+    height : 20px;
+}
+    # written the worse css ever
+    
 .headline{ font-size:40px; margin-bottom: 30px; color : #555;}
 .small{ font-size: 18px; }
 .grayfont { color: #555; }
@@ -87,6 +126,29 @@
 
 </div>
 
+<div class="twitter-feeds">
+    <a class="twitter-timeline" data-dnt=true href="https://twitter.com/whiteplainspm" data-widget-id="287416805432098816">Tweets by @whiteplainspm</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+<div class="social">
+    
+    <div id="google">
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <g:plusone size="standard" count="true" href="http://whiteplains.pm.org"></g:plusone>
+    </div>
+    
+    <div id="facebook">
+        <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwhiteplains.pm.org&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+    </div>
+    
+    
+    <div id="linkedin">
+        <script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
+        <script type="IN/Share" data-url="http://whiteplains.pm.org" data-counter="right"></script>
+    </div>
+    
+</div>
+    
 <div id="footer">
 	<img id="onionlogo" src="img/powered_by_perl.png"></img>
 	<div id="copyright"> The camel used in association with the Perl language is a trademark of 
